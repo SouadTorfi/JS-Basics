@@ -1,5 +1,6 @@
-let name = prompt("what is your name: ");
-let surname = prompt(" your lastname: ");
-let city = prompt("your city: ");
-alert("Hello my name is : " +name+ "\n" + "My lastname is : " +surname+ "\n" + "My city : " +city);
-
+const alertt = () => {
+    let name = document.getElementById("name").value;
+    let surname = document.getElementById("surname").value;
+    let city = document.getElementById("city").value;
+    alert ("Nom : " + name + "\n" +"Prénom : " + surname + "\n" +"Ville : " + city);
+}
