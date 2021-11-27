@@ -1,7 +1,8 @@
-let shoe = prompt("Enter your shoe size : ");
-let year = prompt("Enter your birth year : ");
-function shoesize () {
-    return (shoe * 2 + 5) * 50 - year +1766;
+function Multiple () {
+    var shoe_size = document.getElementById('shoe_size').value;
+    var year = document.getElementById('year').value;
+    var result = (shoe_size * 2 + 5) * 50 - year +1766;
+    alert('Result  = '+ result);
 }
-alert('shoes size = '+ shoesize());
+
 
