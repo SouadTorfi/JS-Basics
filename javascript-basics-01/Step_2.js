@@ -1,4 +1,4 @@
-var name ="Nom : Doe" ;
-var surname ="prenom : John";
-var city ="Ville : New-York";
-alert(name+ "\n" + surname+ "\n" + city);
+var name ="Doe" ;
+var surname ="John";
+var city ="New-York";
+alert ("Nom : " + name + "\n" +"Prénom : " + surname + "\n" +"Ville : " + city);
