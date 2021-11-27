@@ -1,4 +1,8 @@
-let first_number= prompt("Enter the first number :");
-let second_number= prompt("Enter the second number :");
+function divide() {
+    var first_number = document.getElementById('first_number').value;
+    var second_number = document.getElementById('second_number').value;
 
-alert("Result : "+first_number+" / "+second_number+" = "+first_number/second_number);
+    alert("Result : "+first_number+" / "+second_number+" = "+first_number/second_number);
+     
+}
+
